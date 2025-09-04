@@ -1,0 +1,18 @@
+export function MS(): number;
+export function S(): number;
+export function TICK(ms?: number): Promise<any>;
+export function GUID(): string;
+export function ARRAY_EQUAL(a: any, b: any): boolean;
+export function OBJECT_EQUAL(a: any, b: any): boolean;
+export function IS_FUNCTION(func: any): boolean;
+export function IS_ARRAY(arg: any): arg is any[];
+export function IS_OBJECT(arg: any): boolean;
+export function IS_PRIMITIVE(arg: any): arg is string | number | bigint | boolean | symbol;
+export function IS_NULL(arg: any): boolean;
+export function IS_EMPTY(arg: any): boolean;
+export function GOTO(url: any, force: any): void;
+export function FORCE(url: any): void;
+export function LOOP(guid: any, func: any, time: any, time_fail: any, max_fail: any): any;
+export function UNLOOP(guid: any): void;
+export function SPRINTF(format: any, ...args: any[]): any;
+export function PRINTF(format: any, ...args: any[]): void;
