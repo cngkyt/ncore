@@ -1,5 +1,3 @@
-import CNF from '../conf.js';
-
 let TYPES = {
     PRIMITIVE: 'primitive',
     OBJECT: 'object',

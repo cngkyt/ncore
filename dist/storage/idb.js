@@ -1,5 +1,3 @@
-import CNF from '../conf.js';
-
 let DB = null;
 let DB_NAME = 'STORE_DB';
 let DB_VERSION = 1;

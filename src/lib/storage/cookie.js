@@ -1,5 +1,3 @@
-import CNF from '$lib/conf.js';
-
 function setCookie(key, value, days = 365) {
     const expires = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toUTCString();
     document.cookie = `${encodeURIComponent(key)}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
